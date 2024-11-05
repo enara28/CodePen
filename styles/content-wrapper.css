@@ -1,0 +1,61 @@
+/*Content wrapper*/
+.content-wrapper {
+    height: 500px;
+    background-color: #40434c;
+    margin-top: 0px;
+    box-shadow: inset -128px -105px 300px 23px rgba(0,0,0,0.64);
+    display: flex;
+}
+.content-wrapper > .img-wrapper {
+    width: 800px;
+    margin-top: 30px;
+}
+.content-wrapper > .img-wrapper p {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+.content-wrapper > .img-wrapper p span {
+    color: #76d0fd;
+}
+.content-wrapper > .img-wrapper img {
+    width: 500px;
+    float: right;
+    box-shadow: -4px -4px 79px 20px rgba(0, 0, 0, 0.58);
+}
+.content-wrapper > .text {
+    padding: 30px 60px 45px 45px;
+    font-size: 2em;
+    font-weight:300;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+#small {
+    font-size: 0.9em;
+}
+.content-wrapper > .text p span {
+    font-weight: bold;
+}
+.content-wrapper > .text > .body-buttons {
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.content-wrapper > .text > .body-buttons > .green-button {
+    padding: 12px 17px;
+    background-color: #4bcf79;
+    border-radius: 2px;
+    color: black;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.content-wrapper > .text > .body-buttons > .black-button {
+    padding: 12px 17px;
+    background-color: #0e0f11;
+    border-radius: 2px;
+    color: white;
+    font-weight: 600;
+}

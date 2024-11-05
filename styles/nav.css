@@ -1,0 +1,102 @@
+
+.navigation-wrapper {
+    height: 65px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+/*right column*/
+.navigation-wrapper > .right-column {
+    width: 170px;
+}
+.navigation-wrapper > .right-column > .logo img {
+    width: 120px;
+    margin-left: 15px;
+    margin-right: 40px;
+}
+.navigation-wrapper > .left-column {
+    width: 500px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+/*center column*/
+.navigation-wrapper > .center-column {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.navigation-wrapper > .center-column > .top {
+    font-family: "Nunito", sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: rgb(245, 221, 83);
+    letter-spacing: -1px;
+}
+.navigation-wrapper > .center-column > .bottom-wrapper {
+    display: flex;
+    justify-content: left;
+}
+.navigation-wrapper > .center-column > .bottom-wrapper > .buttons-wrapper {
+    font-weight: 800;
+    font-style:normal;
+    display: flex;
+    justify-content:left ;
+}
+.navigation-wrapper > .center-column > .bottom-wrapper > .buttons-wrapper > .button {
+    margin-right: 20px;
+}
+.navigation-wrapper > .center-column > .bottom-wrapper > .slide-wrapper {
+    margin-left: 40px;
+    color: gray;
+    font-weight: 600;
+}
+
+/*left column*/
+.navigation-wrapper > .left-column {
+    width: 700px;
+    display: flex;
+    justify-content: right;
+}
+.navigation-wrapper > .left-column > .create-wrapper {
+    padding: 12px 20px;
+    background-color: rgb(59, 58, 58);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+.navigation-wrapper > .left-column > .create-wrapper > .create-button {
+    color: white;
+    margin-right: 7px;
+    font-weight: 700;
+    font-style: normal;
+}
+.navigation-wrapper > .left-column > .create-wrapper i {
+    color: #4bcf79;
+}
+.navigation-wrapper > .left-column > .icon {
+    font-size: 1.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navigation-wrapper > .left-column > .log-in {
+    padding: 12px 17px;
+    background-color: rgb(59, 58, 58);
+    border-radius: 2px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-style: normal;
+}
+.navigation-wrapper > .left-column > .sign-up {
+    padding: 12px 17px;
+    background-color: rgb(59, 58, 58);
+    border-radius: 2px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+

@@ -1,0 +1,23 @@
+/*Foot wrapper*/
+.foot-wrapper {
+    height: 50px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-wrapper > .foot-button {
+    padding: 12.8px 79px;
+    background-color: #40434c;
+    color: white;
+    font-weight: 600;
+    border: 1px solid white;
+}
+.foot-wrapper > .foot-button span {
+    font-weight:900;
+    font-size: 1.2em;
+}
+.empty-box {
+    height: 80px;
+    background-color: #1a1c20;
+}
